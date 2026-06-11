@@ -4,73 +4,61 @@
 
 # Capability-Led Growth
 
-> **不要只传播能力主张。让一部分真实能力进入用户环境，完成任务并证明价值。**
+软件公司习惯先讲价值，再邀请用户进入产品体验价值。
 
-Capability-Led Growth（CLG，能力驱动增长）是一个面向 AI-native 产品的、**仍待验证的
-GTM 模型**：企业把产品或专业服务中的一部分能力设计成可独立寻址和分发的单元，让潜在
-用户在进入完整产品前先获得实际结果，再检验这次能力使用能否带来增量发现、转化与扩张。
+AI 带来了另一种可能：**把一部分能力直接交给用户，让它先为用户工作。**
 
-这不是“给 Skill 加广告”，也不是宣称 Skill、MCP、Agent 正在合并成一种技术对象。
+我最初做了一个企业 AI 场景分析 Skill。它原本只是一个交付工具，却意外表现出营销价值：
+潜在客户不必先相信一份白皮书或一场演示，可以直接让它分析自己的企业。一次真实任务，
+同时完成了价值交付和能力展示。
 
-## 当前结论
+这促成了 Capability-Led Growth（CLG）这个设想：
 
-| 证据等级 | 现在可以说什么 |
-|---|---|
-| **事实** | Agent Skills、MCP、A2A 与不同类型的 Registry 已分别提供封装、调用、描述或发现机制 |
-| **推断** | 这些机制可能降低部分能力产品化摩擦，并创造新的 GTM 实验空间 |
-| **假设** | CLG 能比内容、普通免费工具或产品试用带来更强的增量增长 |
-| **尚不能主张** | 存在统一的 Capability Unit 标准，或能力市场已经形成网络效应 |
+> 当一项能力能够离开完整产品，进入用户已有的工作环境，并在那里持续完成任务时，
+> 它有机会成为一种新的增长入口。
+
+可安装、可调用、可分享，只说明能力能够流通。CLG 关心的是更具体的结果：它有没有带来
+新的使用者，是否促成复用、留资、注册、销售机会或付费。
+
+## 研究进行到了哪里
+
+过去一年出现了不少值得注意的信号。Agent Skills 开始封装流程知识，MCP 处理工具调用，
+A2A 描述 Agent 间的协作，厂商也在建设不同类型的目录、验证和治理机制。SenseNova、
+Gemini、NVIDIA 等模型厂商还直接发布了成组的 Skills。
+
+它们共同说明，能力正在成为可以被单独设计和分发的产品材料。这已经足以改变产品设计，
+却不足以证明一种新的增长类别已经形成。
 
 <p align="center">
   <img src="./assets/evidence-convergence.svg" alt="Adjacent standards reduce different frictions but do not converge into one object" width="100%">
 </p>
 
-## 四层边界
+我把可以围绕明确任务被单独设计和评估的边界称为“能力单元”。当团队再为它设计分发、
+来源归属、后续承接和测量方式，它才成为一个 CLG 候选方案。技术对象与增长方案的区别，
+就落在这里。
 
-| 层次 | 核心问题 |
-|---|---|---|
-| **Capability Artifact** | 是否存在可加载或调用的知识、流程、工具或 Agent？ |
-| **Capability Unit** | 是否形成可独立寻址、可分发、可评估的结果导向产品边界？ |
-| **Governed Capability** | 是否有版本、评测、权限、风险、来源与生命周期治理？ |
-| **CLG Candidate** | 是否完成增长设计并预注册增量实验，等待结果验证？ |
+## 仓库内容
 
-**技术格式不是增长模型。** Skill 可以承载流程知识，MCP 可以提供调用接口，A2A 可以描述
-Agent 能力，Registry 可以支持不同范围的发现或治理。CLG Candidate 只是实验处理组；
-只有实验观察到可归因的增量增长，才能说 CLG motion 在该场景成立。
+- [CLG 核心文章](./capability-led-growth.zh-CN.md)：这个想法从哪里来，它与 PLG、内容营销
+  和免费工具有什么区别。
+- [能力单元研究](./capability-unit-thesis.zh-CN.md)：为什么“能力”值得成为产品设计对象，
+  以及这个概念最容易被说过头的地方。
+- [证据地图](./research/evidence-map.md)：相关规范、厂商实践、理论来源和当前证据缺口。
+- [SenseNova Skill Pack 个案](./research/sensenova-case-study.md)：从一个模型公司的 Skill
+  Pack 看“模型 + 能力包”的产品形态。
+- [CLG 实验议程](./research/falsification-agenda.md)：如何判断这个想法到底有没有增量价值。
+- [术语表](./GLOSSARY.md)：本文使用的关键概念。
 
-## 阅读路径
+## 我准备怎么做
 
-| 文档 | 内容 |
-|---|---|
-| [CLG 核心文章](./capability-led-growth.zh-CN.md) | 从 Aha Moment 到增长循环、边界、指标与实验 |
-| [能力单元研究论文](./capability-unit-thesis.zh-CN.md) | 理论基础、协议边界、战略含义与反方判断 |
-| [证据地图](./research/evidence-map.md) | 一手资料、证据强弱、能证明什么与不能证明什么 |
-| [SenseNova Skill Pack 个案](./research/sensenova-case-study.md) | 模型公司为什么开始分发能力包，以及它尚未证明什么 |
-| [证伪议程](./research/falsification-agenda.md) | 把 CLG 从叙事变成实验的研究设计 |
-| [术语与边界](./GLOSSARY.md) | Capability Unit、CLG Candidate、Skill、MCP、A2A、Agent 的边界 |
+CLG 最可能成立的地方，不是所有 AI 功能，而是那些可以快速交付一次完整结果、能够进入
+用户现有环境、又与后续产品或服务保持自然连续性的能力。
 
-## 最小研究链路
+所以我暂时不做统一的 Skill、MCP、Agent 编辑器。下一步只围绕现有企业分析 Skill，做出
+供应商入口版和可分发版，比较两者带来的有效任务、复用、留资和销售机会。跑通以后，再
+判断哪些部分值得抽象。
 
-```text
-可分发能力 ≠ CLG
-
-Capability Unit
-→ 加入分发、归属、价值连续性与测量设计
-→ 成为 CLG Candidate
-→ 与基线进行增量实验
-→ 观察 CLG motion 是否在该场景成立
-```
-
-失败样本仍然属于 CLG Candidate，不能因结果不理想而被事后排除。
-
-## 起源与研究状态
-
-CLG 来自 `enterprise-ai-scenario-analyzer` 与 `skill-asset-operations-tool` 的实践观察。
-SenseNova、Google Gemini 与 NVIDIA 的公开 Skills 仓库提示：至少部分模型厂商正在实验
-“模型 + 可复用能力包”。这些案例展示了**能力产品化的可构造形态**，尚未证明普遍采用
-或 CLG 的增长效果。
-
-本仓库将持续收集反例、对照实验和真实单位经济数据。没有增量证据，就没有 CLG。
+我押注“能力会成为重要的产品资产”；暂时不押注“CLG 已经是一个成立的新类别”。
 
 ## License
 

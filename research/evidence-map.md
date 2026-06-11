@@ -1,20 +1,12 @@
 # 证据地图：能力产品化与 CLG
 
-> 截至 2026-06-12。优先使用规范、官方文档、官方仓库和原始论文。这里区分“技术趋势
-> 存在”与“CLG 增长效果成立”。
+这份清单记录 CLG 研究目前依赖的主要材料，更新于 2026-06-12。规范和官方产品可以说明
+行业正在做什么；它们不能替代增长实验。表格最后一列用于提醒证据强度，而不是给观点
+贴上科学标签。
 
-## 证据等级
+## 技术与厂商实践
 
-| 标签 | 含义 |
-|---|---|
-| **事实** | 一手规范、官方实现或可复查数据直接支持 |
-| **观察** | 多个案例呈现相似方向，但不能推导因果 |
-| **推断** | 基于事实的解释，仍需更多案例检验 |
-| **假设** | 必须通过对照实验或长期数据证伪 |
-
-## 核心证据矩阵
-
-| 方向 | 一手证据 | 能证明什么 | 不能证明什么 | 等级 |
+| 方向 | 一手证据 | 从中可见 | 暂时看不出 | 强度 |
 |---|---|---|---|---|
 | 开放 Skill 格式 | [Agent Skills Specification](https://agentskills.io/specification) | Skill 可用目录、`SKILL.md` 和渐进披露封装流程知识 | 通用结果契约、质量或商业效果 | 事实 |
 | 能力增量评测 | [Evaluating skills](https://agentskills.io/skill-creation/evaluating-skills) | 可比较 with-skill / without-skill 的成功率、时间和 Token | 评测提升必然带来增长 | 事实 |
@@ -28,7 +20,7 @@
 | 嵌入式分发 | [Apps in ChatGPT](https://openai.com/index/introducing-apps-in-chatgpt/)、[GPT Store](https://openai.com/index/introducing-the-gpt-store/) | 能力或应用可在对话环境中发现和使用 | 供应商一定能保留关系与价值 | 观察 |
 | 平台格式风险 | [GitHub Copilot Extensions deprecation](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/) | 分发格式和平台策略可能快速变化 | 跨平台能力一定能消除依赖 | 事实 |
 
-## 理论基础
+## 可以借用的理论
 
 | 理论 | 原始来源 | 对本研究的作用 |
 |---|---|---|
@@ -37,7 +29,7 @@
 | Service-Dominant Logic | [Vargo & Lusch, 2004](https://journals.sagepub.com/doi/abs/10.1509/jmkg.68.1.1.24036) | 支持“价值在使用情境中实现”；“使用即可信证明”是本文待测推演 |
 | Boundary Resources | [Ghazawneh & Henfridsson, 2013](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2575.2012.00406.x) | 解释平台如何同时促进第三方创新并控制生态 |
 
-## GitHub 供给信号
+## 公开供给信号
 
 以下 Star / Fork 只作为公开兴趣与分发信号，**不是商业采用或增长证据**。快照日期：
 2026-06-12。
@@ -52,14 +44,13 @@
 | `google-gemini/gemini-skills` | ~3.6k | ~350 |
 | `NVIDIA/skills` | ~1.2k | ~150 |
 
-## 证据缺口
+## 还缺什么
 
-目前仍缺少公开、可信的数据来回答：
+现有材料足以说明，能力封装、调用、发现和治理正在受到更多关注。但以下问题仍没有可靠的
+公开答案：
 
 1. 能力单元相较白皮书、普通免费工具和产品试用的增量转化；
 2. 同一能力跨多个运行时的任务成功率、成本和风险差异；
 3. Registry 是否改善匹配与留存，还是加剧低质量供给和安全成本；
 4. 能力提供方是否能在第三方环境中保留归属、反馈和商业关系；
 5. 验证状态是否能预测未来真实任务表现和组合后可靠性。
-
-因此，当前最强结论是“能力产品化基础设施正在出现”，不是“CLG 已被市场验证”。
