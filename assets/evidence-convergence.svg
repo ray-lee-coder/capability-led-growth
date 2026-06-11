@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img">
+  <rect width="1200" height="390" rx="24" fill="#f4f8fc"/>
+  <text x="54" y="58" fill="#102a43" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="800">CONVERGING FRICTIONS. DIFFERENT OBJECTS.</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="55" y="100" width="205" height="105" rx="16" fill="#102a43"/>
+    <text x="78" y="138" fill="#39d9ff" font-size="20" font-weight="700">AGENT SKILLS</text>
+    <text x="78" y="171" fill="#fff" font-size="16">package knowledge</text>
+    <rect x="283" y="100" width="205" height="105" rx="16" fill="#163d5a"/>
+    <text x="306" y="138" fill="#39d9ff" font-size="20" font-weight="700">MCP</text>
+    <text x="306" y="171" fill="#fff" font-size="16">invoke tools</text>
+    <rect x="511" y="100" width="205" height="105" rx="16" fill="#1d526d"/>
+    <text x="534" y="138" fill="#39d9ff" font-size="20" font-weight="700">A2A</text>
+    <text x="534" y="171" fill="#fff" font-size="16">describe agents</text>
+    <rect x="739" y="100" width="205" height="105" rx="16" fill="#246980"/>
+    <text x="762" y="138" fill="#ffe1bd" font-size="20" font-weight="700">REGISTRY</text>
+    <text x="762" y="171" fill="#fff" font-size="16">discover supply</text>
+    <rect x="967" y="100" width="178" height="105" rx="16" fill="#2e7e90"/>
+    <text x="990" y="138" fill="#ffe1bd" font-size="20" font-weight="700">VERIFY</text>
+    <text x="990" y="171" fill="#fff" font-size="16">signal trust</text>
+    <path d="M160 245H1040" stroke="#ff9b50" stroke-width="4" stroke-dasharray="9 11"/>
+    <text x="55" y="292" fill="#102a43" font-size="19" font-weight="700">SHARED DIRECTION</text>
+    <text x="255" y="292" fill="#38566e" font-size="18">package + discover + invoke + govern</text>
+    <text x="55" y="338" fill="#b34820" font-size="19" font-weight="700">MISSING PROOF</text>
+    <text x="255" y="338" fill="#38566e" font-size="18">quality + value capture + incrementality</text>
+  </g>
+</svg>

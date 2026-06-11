@@ -34,7 +34,7 @@ Skill，让它为自己的企业工作。价值证明不是发生在营销材料
 
 Capability-Led Growth 是一种面向 AI-native 产品的 GTM motion：
 
-> **企业将产品或专业服务中的一部分真实能力，封装为可独立使用、可分发的能力单元，
+> **企业将产品或专业服务中的一部分真实能力，设计为可独立寻址、可分发的能力单元，
 > 让潜在用户在进入完整产品之前先获得实际结果，并由能力使用推动发现、激活、
 > 转化与扩张。**
 
@@ -61,7 +61,7 @@ Capability-Led Growth：
 
 这里的“能力单元”不是固定技术格式。它必须满足几个功能条件：
 
-- 能够独立完成一个有价值的任务；
+- 在声明支持的运行时和依赖条件下，能够完成一个有价值的任务；
 - 可以脱离完整产品被发现、安装、调用或分享；
 - 使用门槛明显低于采购或部署完整产品；
 - 使用结果能够体现提供方的独特能力；
@@ -70,6 +70,24 @@ Capability-Led Growth：
 Skill、MCP Server 暴露的工具与资源、Agent、API、扩展和交互式免费工具，都可能承载
 CLG。但它们都不天然构成 CLG。CLG 的定义建立在能力行为与增长结果上，而不是建立在
 某个技术名词上。
+
+### 研究更新：协议趋同不等于对象模型趋同
+
+Agent Skills、MCP、A2A、不同类型的 Registry 和验证计划正在分别提供流程知识封装、
+工具调用、Agent 描述、供给发现和信任治理机制。这些机制是否降低实际摩擦仍需测量，
+而且它们标准化的是不同对象：
+
+| 机制 | 主要对象 | 不能直接推出 |
+|---|---|---|
+| Agent Skills | 可加载的指令、流程与资源包 | 独立结果、质量或增长 |
+| MCP | Agent 与工具、资源、提示之间的协议 | 工具调用等于用户价值 |
+| A2A | Agent 身份、能力描述与任务协作 | `AgentSkill` 是独立能力制品 |
+| Registry / Verification | 发现、来源和特定范围内的信任信号 | 持续质量、跨平台认证或网络效应 |
+
+因此，本研究不主张它们正在形成一个统一的 Capability Unit 标准。这里的能力单元是
+结果导向的产品与增长边界，不是新的通用技术格式。更完整的理论与证据见
+[《能力单元：AI 原生产品的新边界，还是又一次概念膨胀？》](./capability-unit-thesis.zh-CN.md)
+和[证据地图](./research/evidence-map.md)。
 
 ---
 
@@ -478,6 +496,21 @@ CLG 的北极星指标不应是 Hook 数量，而应接近：
 
 下载、Star、Hook 命中和报告页数都可能增长，却没有带来有效任务、复用或收入。
 
+### 7. 平台攫取价值
+
+第三方运行时可能控制发现、身份、数据和用户关系。能力提供方承担推理、维护和责任成本，
+却无法建立持续商业关系。
+
+### 8. 认证错觉与组合风险
+
+签名可以证明来源和完整性，固定评测可以提供局部质量信号，但都不能自动证明未来真实任务
+表现、持续安全或多个能力组合后的可靠性。
+
+### 9. 能力包加速模型商品化
+
+可移植能力包可以降低模型采用门槛，也可能降低模型迁移成本。若提供方不能证明模型特定
+的质量、成本、反馈、信任或分发优势，能力包可能强化用户价值，却削弱供应商壁垒。
+
 ---
 
 ## 十一、CLG 的最小实验
@@ -529,7 +562,7 @@ AI 转型白皮书更接近真实价值体验。
 - 配置解耦
 - 审计与治理
 
-但这个案例目前只证明了模型的可构造性，还没有证明 CLG 能够稳定产生增长。
+但这个案例目前只展示了模型的可构造形态，还没有证明 CLG 能够稳定产生增长。
 
 下一步真正需要验证的不是能否注入更多营销元素，而是：
 
@@ -578,8 +611,8 @@ AI 转型白皮书更接近真实价值体验。
 
 ## 结语
 
-AI-native 产品让能力从完整软件和专家本人中被拆分出来，成为可以被调用、复制和分发
-的独立单元。
+AI-native 产品可能让部分能力更容易从完整软件和专家本人中被独立寻址、调用和分发，
+但它们通常仍依赖运行时、模型、工具、数据与治理。
 
 当这些能力单元进入潜在用户已有环境，直接完成真实任务，并自然连接到更完整的产品
 和服务时，GTM 不再只是围绕产品传播信息，也开始围绕能力分发价值。
@@ -605,9 +638,15 @@ CLG 目前仍是一个需要被严格验证的模型，而不是一个已经成�
 - [Pendo: Product-led growth](https://www.pendo.io/glossary/product-led-growth/)
 - [ProductLed: Product-led growth definition](https://productled.com/blog/product-led-growth-definition)
 - [Anthropic: Extend Claude with skills](https://docs.anthropic.com/en/docs/claude-code/skills)
-- [Model Context Protocol: Introduction](https://modelcontextprotocol.io/docs/getting-started/intro)
-- [Model Context Protocol: Architecture overview](https://modelcontextprotocol.io/docs/learn/architecture)
-- [OpenAI Agents SDK: Agents](https://openai.github.io/openai-agents-python/agents/)
+- [Agent Skills: Specification](https://agentskills.io/specification)
+- [Agent Skills: Evaluating skills](https://agentskills.io/skill-creation/evaluating-skills)
+- [Model Context Protocol: Tools specification](https://modelcontextprotocol.io/specification/2025-11-25/server/tools)
+- [A2A Protocol: Specification](https://a2a-protocol.org/latest/specification/)
+- [NVIDIA: Verified Agent Skills](https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/)
+- [Google Cloud: Skill Registry](https://cloud.google.com/blog/topics/developers-practitioners/io26-news-for-agent-developers-on-google-cloud)
+- [Baldwin & Clark: Design Rules](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=312404)
+- [Vargo & Lusch: Evolving to a New Dominant Logic for Marketing](https://journals.sagepub.com/doi/abs/10.1509/jmkg.68.1.1.24036)
+- [本仓库：完整证据地图](./research/evidence-map.md)
 - `enterprise-ai-scenario-analyzer`（私有参考实现）
 - `skill-asset-operations-tool`（私有参考实现）
 
