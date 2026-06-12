@@ -20,6 +20,16 @@
 | 嵌入式分发 | [Apps in ChatGPT](https://openai.com/index/introducing-apps-in-chatgpt/)、[GPT Store](https://openai.com/index/introducing-the-gpt-store/) | 能力或应用可在对话环境中发现和使用 | 供应商一定能保留关系与价值 | 观察 |
 | 平台格式风险 | [GitHub Copilot Extensions deprecation](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/) | 分发格式和平台策略可能快速变化 | 跨平台能力一定能消除依赖 | 事实 |
 
+## 相邻 PLG 与营销案例
+
+| 案例 | 一手证据 | 对 CLG 的作用 |
+|---|---|---|
+| Website Grader | [HubSpot Website Grader](https://website.grader.com/)、[HubSpot 案例](https://inspire.hubspot.com/hubspot-website-grader-expertise-with-a-click-of-a-mouse) | 真实任务可以同时承担价值交付、需求教育和获客 |
+| Grammarly | [Where Grammarly Works](https://www.grammarly.com/where-grammarly-works) | 产品能力可以进入大量第三方工作环境持续交付价值 |
+| Calendly | [Calendly sales tips](https://calendly.com/blog/pro-tips-for-sales) | 用户使用能力时，可以自然把能力分发给下一位参与者 |
+| Canva Creators | [Canva Creators](https://www.canva.com/creators/) | 可复用资产可以形成创建、审核、发现、复用和收益循环 |
+| ChatGPT Apps | [OpenAI 发布说明](https://openai.com/index/introducing-apps-in-chatgpt/)、[目录提交文档](https://developers.openai.com/apps-sdk/deploy/submission) | Agent 可以在用户意图出现时发现和调用第三方能力 |
+
 ## 可以借用的理论
 
 | 理论 | 原始来源 | 对本研究的作用 |

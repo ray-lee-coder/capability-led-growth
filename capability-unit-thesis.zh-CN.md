@@ -126,4 +126,5 @@ SenseNova 最有价值的地方，是把这种产品形态具体地展示了出�
 再让结果反过来修改“能力单元”与 CLG 的定义。
 
 相关来源见[证据地图](./research/evidence-map.md)，研究方法见
-[CLG 研究与迭代方法](./research/model-development-agenda.md)。
+[CLG 研究与迭代方法](./research/model-development-agenda.md)，PLG 主线见
+[从 PLG 到分布式能力增长](./distributed-plg-thesis.zh-CN.md)。

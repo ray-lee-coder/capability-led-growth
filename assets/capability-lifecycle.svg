@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img">
+  <rect width="1200" height="520" rx="24" fill="#07111f"/>
+  <text x="60" y="62" fill="#f7fbff" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800">CAPABILITY UNIT LIFECYCLE</text>
+  <g font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle">
+    <circle cx="180" cy="180" r="72" fill="#15324a"/><text x="180" y="176" fill="#77e5ff">DESIGN</text><text x="180" y="202" fill="#c2d2df" font-size="14">task + boundary</text>
+    <circle cx="430" cy="180" r="72" fill="#1d526d"/><text x="430" y="176" fill="#77e5ff">EVALUATE</text><text x="430" y="202" fill="#d8e8f3" font-size="14">quality + risk</text>
+    <circle cx="680" cy="180" r="72" fill="#2e7e90"/><text x="680" y="176" fill="#fff0da">DISTRIBUTE</text><text x="680" y="202" fill="#f6fbff" font-size="14">channel + trigger</text>
+    <circle cx="930" cy="180" r="72" fill="#ff9b50"/><text x="930" y="176" fill="#07111f">OPERATE</text><text x="930" y="202" fill="#382315" font-size="14">use + relationship</text>
+    <path d="M252 180 H350 M502 180 H600 M752 180 H850" stroke="#c2d2df" stroke-width="5" stroke-linecap="round"/>
+    <path d="M930 252 C930 400 430 440 220 290" fill="none" stroke="#39d9ff" stroke-width="5" stroke-linecap="round"/>
+    <path d="M225 312 L215 286 L243 289" fill="none" stroke="#39d9ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="345" y="350" width="510" height="86" rx="20" fill="#15324a"/>
+    <text x="600" y="385" fill="#f7fbff" font-size="19">LEARN, EXPAND, UPDATE OR RETIRE</text>
+    <text x="600" y="414" fill="#c2d2df" font-size="14">growth signals + user feedback + lifecycle decision</text>
+  </g>
+</svg>

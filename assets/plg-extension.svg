@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img">
+  <rect width="1200" height="500" rx="24" fill="#07111f"/>
+  <text x="60" y="64" fill="#f7fbff" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="800">PLG, EXTENDED BY DISTRIBUTABLE CAPABILITIES</text>
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="70" y="120" width="450" height="270" rx="24" fill="#15324a"/>
+    <text x="110" y="170" fill="#39d9ff" font-size="25" font-weight="800">CLASSIC PLG</text>
+    <text x="110" y="220" fill="#f7fbff" font-size="20">User enters the product</text>
+    <text x="110" y="260" fill="#c2d2df" font-size="18">use → value → conversion</text>
+    <text x="110" y="300" fill="#c2d2df" font-size="18">retention → expansion</text>
+    <rect x="110" y="335" width="340" height="8" rx="4" fill="#39d9ff"/>
+    <text x="110" y="372" fill="#77e5ff" font-size="17">growth surface: owned product</text>
+    <path d="M540 255 H650" stroke="#ff9b50" stroke-width="8" stroke-linecap="round"/>
+    <path d="M630 235 L655 255 L630 275" fill="none" stroke="#ff9b50" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="680" y="120" width="450" height="270" rx="24" fill="#2e7e90"/>
+    <text x="720" y="170" fill="#fff0da" font-size="25" font-weight="800">CAPABILITY-LED GROWTH</text>
+    <text x="720" y="220" fill="#ffffff" font-size="20">Capability enters user context</text>
+    <text x="720" y="260" fill="#e7f6fa" font-size="18">task → value → relationship</text>
+    <text x="720" y="300" fill="#e7f6fa" font-size="18">reuse → redistribution → expansion</text>
+    <rect x="720" y="335" width="340" height="8" rx="4" fill="#ff9b50"/>
+    <text x="720" y="372" fill="#fff0da" font-size="17">growth surface: user environment</text>
+  </g>
+</svg>
