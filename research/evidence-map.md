@@ -30,6 +30,15 @@
 | Canva Creators | [Canva Creators](https://www.canva.com/creators/) | 可复用资产可以形成创建、审核、发现、复用和收益循环 |
 | ChatGPT Apps | [OpenAI 发布说明](https://openai.com/index/introducing-apps-in-chatgpt/)、[目录提交文档](https://developers.openai.com/apps-sdk/deploy/submission) | Agent 可以在用户意图出现时发现和调用第三方能力 |
 
+## 增长测量与运营框架
+
+| 框架 | 一手证据 | 对 CLG 的作用 |
+|---|---|---|
+| North Star Framework | [Amplitude North Star](https://amplitude.com/books/north-star/about-north-star-framework) | 用代表用户价值的北极星和输入指标连接产品行为与商业结果 |
+| Time to Value | [Amplitude TTV](https://amplitude.com/blog/time-to-value-drives-user-retention) | 区分任务启动、首次价值和持续价值，避免把完成流程当作获得价值 |
+| Product-Qualified Lead | [Pocus PQL](https://www.pocus.com/blog/pql-guide-part-3-advanced-product-qualified-lead-scoring-concepts) | 用价值、匹配和意图识别值得承接的使用关系 |
+| Incrementality | [Meta Conversion Lift](https://www.facebook.com/business/measurement/conversion-lift)、[Google Meridian](https://developers.google.com/meridian/docs/causal-inference/intro) | 区分归因与因果，判断能力分发真正新增了什么 |
+
 ## 可以借用的理论
 
 | 理论 | 原始来源 | 对本研究的作用 |

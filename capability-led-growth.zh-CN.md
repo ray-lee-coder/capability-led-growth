@@ -154,6 +154,30 @@ CLG 关注的是另一种情况：能力离开供应商入口，进入用户或�
   <img src="./assets/capability-lifecycle.svg" alt="Capability lifecycle from design to retirement" width="100%">
 </p>
 
+## 指标必须形成闭环
+
+CLG 不能用下载量、安装量和调用量证明有效。它需要先定义一次能力使用何时真正为用户创造
+价值，再观察价值是否形成关系和商业结果。
+
+建议把 **有效价值任务** 作为北极星：能力成功完成用户原本要解决的任务，并出现保存、采用、
+分享、继续任务或复用等结果采用信号。
+
+围绕它建立五层指标：
+
+```text
+发现：是否在正确意图下被看到和调用
+→ 价值：是否快速完成有效价值任务
+→ 关系：是否产生复用、分享和自然后续动作
+→ 商业：是否形成能力合格关系、销售机会、付费或扩张
+→ 经济性：增量结果是否覆盖运行与运营成本
+```
+
+这套指标最终必须改变能力生命周期决策。高调用、低价值说明触发失准；高价值、低关系说明
+承接缺失；关系增长但没有增量商业结果，需要检查商业连续性与归因；长期低价值、高成本或
+高风险的能力应当合并、暂停或退役。
+
+完整框架见[《CLG 指标与运营闭环》](./clg-measurement-and-operations.zh-CN.md)。
+
 ## 实践会暴露哪些问题
 
 CLG 的风险并不少。
@@ -227,7 +251,9 @@ CLG 当前是一套从 PLG 延伸出来的工作模型，用来解释企业如�
 
 - [能力单元：AI 产品正在出现的新边界](./capability-unit-thesis.zh-CN.md)
 - [从 PLG 到分布式能力增长](./distributed-plg-thesis.zh-CN.md)
+- [CLG 指标与运营闭环](./clg-measurement-and-operations.zh-CN.md)
 - [相邻案例谱系](./research/case-patterns.md)
+- [CLG 模型审评](./research/model-review-2026-06.md)
 - [早期产品个案](./research/skill-marketing-prototype-case.md)
 - [证据地图：能力产品化与 CLG](./research/evidence-map.md)
 - [SenseNova Skill Pack：模型公司为什么开始交付“能力”](./research/sensenova-case-study.md)

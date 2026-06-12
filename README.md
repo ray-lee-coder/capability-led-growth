@@ -47,6 +47,9 @@ Skill 会不会成为一个营销渠道，而是沿着这条已经出现的路�
 这也带来一个新的运营对象：团队不只管理用户账号和完整产品，还要管理每个能力单元从设计、
 发布、分发、激活、归因、承接、迭代到退役的生命周期。
 
+CLG 的闭环不以下载和调用结束。它以“有效价值任务”为北极星，继续观察能力是否形成复用、
+关系和商业结果，再用增量与经济性决定扩张、迭代或退役。
+
 ## 仓库内容
 
 - [CLG 核心文章](./capability-led-growth.zh-CN.md)：这个想法从哪里来，它与 PLG、内容营销
@@ -55,8 +58,11 @@ Skill 会不会成为一个营销渠道，而是沿着这条已经出现的路�
   以及这个概念最容易被说过头的地方。
 - [从 PLG 到分布式能力增长](./distributed-plg-thesis.zh-CN.md)：CLG 如何延伸 PLG，以及
   用户运营和能力生命周期为什么需要重做。
+- [CLG 指标与运营闭环](./clg-measurement-and-operations.zh-CN.md)：如何定义北极星、能力
+  合格关系、归因、经济性与生命周期决策。
 - [相邻案例谱系](./research/case-patterns.md)：从 Website Grader、Grammarly、Calendly、
   ChatGPT Apps 到 Agent Skills，看这条路径如何逐步出现。
+- [CLG 模型审评](./research/model-review-2026-06.md)：当前理论缺口与本轮修正。
 - [早期产品个案](./research/skill-marketing-prototype-case.md)：企业分析 Skill 与营销包装
   工具已经发现了什么，又缺少什么。
 - [证据地图](./research/evidence-map.md)：相关规范、厂商实践、理论来源和当前证据缺口。
