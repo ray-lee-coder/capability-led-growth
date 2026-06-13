@@ -60,11 +60,17 @@ CLG 的闭环不以下载和调用结束。它以“有效价值任务”为北�
   用户运营和能力生命周期为什么需要重做。
 - [CLG 指标与运营闭环](./clg-measurement-and-operations.zh-CN.md)：如何定义北极星、能力
   合格关系、归因、经济性与生命周期决策。
+- [思想演进与产品 Roadmap](./thought-roadmap.zh-CN.md)：从企业分析 Skill、营销 Hook 和
+  CLG，走向可经营能力与外部产品面。
+- [模型升级：从可分发能力到可经营能力](./model-upgrade-operable-capability.zh-CN.md)：
+  重新区分 Skill、CLI、MCP、Agent、能力单元和商业闭环。
 - [相邻案例谱系](./research/case-patterns.md)：从 Website Grader、Grammarly、Calendly、
   ChatGPT Apps 到 Agent Skills，看这条路径如何逐步出现。
 - [CLG 模型审评](./research/model-review-2026-06.md)：当前理论缺口与本轮修正。
 - [早期产品个案](./research/skill-marketing-prototype-case.md)：企业分析 Skill 与营销包装
   工具已经发现了什么，又缺少什么。
+- [Neta 商业化案例](./research/neta-agent-native-commercialization-case.md)：Skill、CLI、
+  身份、状态、计量、社区和支付如何组成 Agent-native 外部产品面。
 - [证据地图](./research/evidence-map.md)：相关规范、厂商实践、理论来源和当前证据缺口。
 - [SenseNova Skill Pack 个案](./research/sensenova-case-study.md)：从一个模型公司的 Skill
   Pack 看“模型 + 能力包”的产品形态。
@@ -77,13 +83,14 @@ CLG 的闭环不以下载和调用结束。它以“有效价值任务”为北�
 当前先从那些可以快速交付一次完整结果、能够进入用户现有环境、又与后续产品或服务保持
 自然连续性的能力开始。它们适合用来观察能力如何成为营销触点，也便于暴露模型缺失的环节。
 
-所以我暂时不做统一的 Skill、MCP、Agent 编辑器。下一步只围绕现有企业分析 Skill，做出
-供应商入口版和可分发版，比较两者带来的有效任务、复用、留资和销售机会。跑通以后，再
-提炼哪些设计原则可以复用，哪些只属于当前场景。
+所以我暂时不做统一的 Skill、MCP、Agent 编辑器。下一步仍围绕现有企业分析 Skill，但验证
+目标从“加入营销 Hook”升级为“跑通一条最小可经营链路”：完成有效价值任务，保存或继续
+报告，主动建立关系，记录价值与成本，并自然承接深度分析或服务。CLI 将作为执行适配器进入
+研究，但不预设为最终用户体验。
 
 我认为这条路径成立：当能力可以独立流通，PLG 就不会只发生在完整产品内部。接下来的工作
-不是继续发明概念，而是把能力如何获客、如何形成关系、如何被持续运营讲清楚，并用真实
-实践不断修正它。
+不是继续发明概念，而是把能力如何获客、交付、形成关系、保存状态、承接商业结果并被持续
+运营讲清楚，再用真实实践决定哪些机制值得抽象为产品。
 
 ## License
 

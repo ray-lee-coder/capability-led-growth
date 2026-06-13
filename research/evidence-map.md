@@ -17,6 +17,7 @@
 | MCP Server Registry | [GitHub MCP Registry](https://github.blog/ai-and-ml/github-copilot/meet-the-github-mcp-registry-the-fastest-way-to-discover-mcp-servers/) | GitHub 提供 MCP Server 发现目录 | 与 Skill Registry 对象或治理范围相同 | 事实 |
 | 验证与信任 | [NVIDIA Verified Agent Skills](https://developer.nvidia.com/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/) | Skill 可被扫描、签名、编目并附机器可读 Skill Card | 验证等于持续质量、安全或跨平台认证 | 事实 |
 | 模型公司能力包 | [SenseNova Skills](https://github.com/OpenSenseNova/SenseNova-Skills)、[Google Gemini Skills](https://github.com/google-gemini/gemini-skills)、[NVIDIA Skills](https://github.com/NVIDIA/skills) | 模型厂商正在发布任务级能力包 | 能力包产生了可归因的商业增长 | 观察 |
+| Agent-native 商业闭环 | [Neta Skills](https://github.com/talesofai/neta-skills)、[Premium workflow](https://github.com/talesofai/neta-skills/blob/main/skills/neta-creative/references/premium.md) | Skill、CLI、身份、状态、计量和支付可以组成外部产品面 | 该渠道已经产生稳定收入或优于 Web / App | 实现事实与待验证结果 |
 | 嵌入式分发 | [Apps in ChatGPT](https://openai.com/index/introducing-apps-in-chatgpt/)、[GPT Store](https://openai.com/index/introducing-the-gpt-store/) | 能力或应用可在对话环境中发现和使用 | 供应商一定能保留关系与价值 | 观察 |
 | 平台格式风险 | [GitHub Copilot Extensions deprecation](https://github.blog/changelog/2025-09-24-deprecate-github-copilot-extensions-github-apps/) | 分发格式和平台策略可能快速变化 | 跨平台能力一定能消除依赖 | 事实 |
 

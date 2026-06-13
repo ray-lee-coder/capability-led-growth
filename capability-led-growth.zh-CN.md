@@ -178,6 +178,24 @@ CLG 不能用下载量、安装量和调用量证明有效。它需要先定义�
 
 完整框架见[《CLG 指标与运营闭环》](./clg-measurement-and-operations.zh-CN.md)。
 
+## 从可分发能力到可经营能力
+
+Neta Skills 提供了一个比“Skill 作为营销触点”更完整的现实案例。它把路由 Skill、聚焦
+子 Skill、CLI、API、OAuth、使用计量、作品资产、社区发现、套餐、订单和支付连接在一起。
+
+这迫使 CLG 区分三个层次：
+
+- **能力单元**是围绕明确任务形成的设计和评测边界；
+- **可经营能力单元**能够进一步连接身份、同意、状态、计量、关系承接和商业化；
+- **外部产品面**由多个可经营能力及共享基础设施组成，进入用户已有 Agent、CLI 或工作流。
+
+CLG 仍然负责解释增长如何发生。可经营能力是运营对象，外部产品面是产品结构。Skill、
+CLI、MCP、API、Agent 和 Web 并不是彼此替代的同类载体，而是在结构中承担不同职责。
+
+这也修正了当前产品方向：营销 Hook 编辑器不再是最高层定义，而应成为可经营能力设计中的
+一个模块。完整升级见[《模型升级：从可分发能力到可经营能力》](./model-upgrade-operable-capability.zh-CN.md)
+和 [Neta 商业化案例](./research/neta-agent-native-commercialization-case.md)。
+
 ## 实践会暴露哪些问题
 
 CLG 的风险并不少。
